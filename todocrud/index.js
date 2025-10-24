@@ -50,7 +50,7 @@ app.put('/todos/:id', async(req,res)=>{
 
 
 app.listen(3000, () => {
-    mongoose.connect('mongodb://localhost:27017/todolist')
+    mongoose.connect('mongodb://localhost:27017/jansanTodoTest')
         .then(() => console.log("DB connected"))
         .catch(err => console.log(err));  
           console.log('server is running on http://localhost:3000/')
